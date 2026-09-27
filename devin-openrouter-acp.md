@@ -1,8 +1,5 @@
-<!-- TL;DR
-Bypass Devin's paywalled model catalog by routing LLM calls through Opencode + OpenRouter via ACP protocol — architecture, setup, and plan requirements.
-Tags: {#devin} {#openrouter} {#acp}
-Words: 162 | Updated: 2026-09-28
--->
+> **TL;DR** — Bypass Devin's paywalled model catalog by routing LLM calls through Opencode + OpenRouter via ACP protocol — architecture, setup, and plan requirements.
+> Tags: {#devin} {#openrouter} {#acp} | Updated: 2026-09-28
 # Devin + OpenRouter via Opencode ACP
 
 ## Architecture
@@ -30,7 +27,7 @@ Devin's native model catalog is paywalled because model routing is server-side o
 
 ## Caveat
 
-Third-party ACP agents require Devin **Pro, Max, or Teams** plan.
+Third-party ACP agents require Devin **Pro, Max, or Teams** plan. Devin-native features like the **Generate Commit** button are also paywalled to paid plans only — the ACP setup only bypasses the model catalog, not Devin's UI feature restrictions. For commit messages without upgrading, ask OpenCode via chat (`/commit` or prompt it to generate a commit message).
 
 ## References
 

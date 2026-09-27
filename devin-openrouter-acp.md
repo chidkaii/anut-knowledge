@@ -1,3 +1,4 @@
+<!-- TL;DR: Bypass Devin's paywalled model catalog by routing LLM calls through Opencode + OpenRouter via ACP protocol — architecture, setup, and plan requirements. | words: 162 | updated: 2026-09-28 -->
 # Devin + OpenRouter via Opencode ACP
 
 ## Architecture

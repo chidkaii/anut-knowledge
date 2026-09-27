@@ -1,5 +1,6 @@
 <!-- TL;DR
 Ubuntu dual-path disk mount via bind mount — partition accessible at /mnt (CLI) and /media/$USER (GUI/Nautilus) with fstab persistence.
+Tags: {#linux} {#mount} {#fstab}
 Words: 198 | Updated: 2026-09-28
 -->
 

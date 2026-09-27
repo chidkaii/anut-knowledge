@@ -1,5 +1,6 @@
 <!-- TL;DR
 ComfyUI + Ollama 2-pass startup guide for Ubuntu — pre-flight checklist, service startup, node wiring for high-res upscaling, and troubleshooting.
+Tags: {#comfyui} {#ollama} {#linux}
 Words: 236 | Updated: 2026-09-28
 -->
 # ComfyUI & Ollama 2-Pass Workflow Startup Guide

@@ -1,5 +1,6 @@
-> **TL;DR** — ComfyUI + Ollama 2-pass startup guide for Ubuntu — pre-flight checklist, service startup, node wiring for high-res upscaling, and troubleshooting.
-> Tags: {#comfyui} {#ollama} {#linux} | Updated: 2026-09-28
+**TL;DR:** ComfyUI + Ollama 2-pass startup guide for Ubuntu — pre-flight checklist, service startup, node wiring for high-res upscaling, and troubleshooting.
+
+Tags: {#comfyui} {#ollama} {#linux} | Updated: 2026-09-28
 # ComfyUI & Ollama 2-Pass Workflow Startup Guide
 
 คำแนะนำขั้นตอนการเปิดใช้งานระบบ **ComfyUI** ร่วมกับ **Ollama** สำหรับการเจนภาพ 2-Pass High-Resolution (1024x1024) บน Ubuntu

@@ -7,6 +7,7 @@
 - ตรวจ key ที่ `~/.local/share/opencode/auth.json` และ registry ที่ `~/.windsurf/acp/registry.json`
 
 Tags: {#devin} {#openrouter} {#acp} | Updated: 2026-09-28
+Related: [devin-hermes-acp.md](devin-hermes-acp.md)
 # Devin + OpenRouter via Opencode ACP
 
 ## Architecture

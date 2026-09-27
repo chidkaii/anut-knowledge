@@ -1,5 +1,11 @@
 **TL;DR:** Bypass Devin's paywalled model catalog by routing LLM calls through Opencode + OpenRouter via ACP protocol — architecture, setup, and plan requirements.
 
+**Key Points:**
+- LLM routing เกิดขึ้นที่ layer ของ Opencode (มี OpenRouter key ของตัวเอง) ไม่ใช่ Devin
+- Devin เห็นแค่ agent protocol ไม่เห็น model catalog → หลบ paywall
+- ต้องใช้ Devin Pro, Max, หรือ Teams plan สำหรับ third-party ACP agents
+- ตรวจ key ที่ `~/.local/share/opencode/auth.json` และ registry ที่ `~/.windsurf/acp/registry.json`
+
 Tags: {#devin} {#openrouter} {#acp} | Updated: 2026-09-28
 # Devin + OpenRouter via Opencode ACP
 

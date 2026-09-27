@@ -1,5 +1,11 @@
 **TL;DR:** Ubuntu dual-path disk mount via bind mount — partition accessible at /mnt (CLI) and /media/$USER (GUI/Nautilus) with fstab persistence.
 
+**Key Points:**
+- Bind mount ใช้ `/mnt/Share-Drive  /media/$USER/Share-Drive  none  bind  0  0`
+- ต้อง `sudo systemctl daemon-reload` ก่อน `sudo mount -a`
+- `/media/$USER/` ต้องชี้ถูก username ไม่งั้น sidebar ไม่ขึ้น
+- ตรวจสอบด้วย `df -h /mnt/Share-Drive /media/$USER/Share-Drive`
+
 Tags: {#linux} {#mount} {#fstab} | Updated: 2026-09-28
 
 # Skill: Persistent & Dual-Path Disk Mounting in Ubuntu

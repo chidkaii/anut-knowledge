@@ -1,5 +1,11 @@
 **TL;DR:** ComfyUI + Ollama 2-pass startup guide for Ubuntu — pre-flight checklist, service startup, node wiring for high-res upscaling, and troubleshooting.
 
+**Key Points:**
+- Ollama ตรวจสถานะที่ `http://127.0.0.1:11434/` และ restart ด้วย systemctl
+- ComfyUI เริ่มที่ `python main.py` แล้วเปิด `http://127.0.0.1:8188`
+- 2-pass: KSampler1 (denoise 1.00) → Upscale Latent → KSampler2 (denoise 0.35-0.40)
+- คิวค้าง 0% → `curl -X POST http://127.0.0.1:8188/interrupt` แล้ว restart Ollama
+
 Tags: {#comfyui} {#ollama} {#linux} | Updated: 2026-09-28
 # ComfyUI & Ollama 2-Pass Workflow Startup Guide
 

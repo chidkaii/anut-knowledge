@@ -2,6 +2,7 @@
 
 | File | TL;DR | Tags |
 |------|-------|------|
+| [ai-from-zero.md](ai-from-zero.md) | AI เก่งได้เพราะ weight สุ่มถูกปรับด้วยเกมเดียว (ทำนาย token ถัดไป) ความต่าง bigram vs GPT-5 คือปริมาณ ไม่ใช่หลักการ. มีบันได 4 ขั้นสำหรับสร้างเอง, backprop 3 บรรทัด, debug checklist, และข้อจำกัดเครื่องจริง | {#ai} {#deep-learning} {#training} {#from-scratch} |
 | [comfyUI.md](comfyUI.md) | ComfyUI + Ollama 2-pass startup guide for Ubuntu — pre-flight checklist, service startup, node wiring for high-res upscaling, and troubleshooting. | {#comfyui} {#ollama} {#linux} |
 | [devin-hermes-acp.md](devin-hermes-acp.md) | Register Hermes Agent as a Devin ACP agent via `~/.windsurf/acp/registry.json` — Devin Desktop launches `hermes acp` for editor-aware sessions. Also covers installing the Hermes Agent for VS Code extension (marketplace + from-source). | {#devin} {#hermes} {#acp} {#vscode} |
 | [devin-openrouter-acp.md](devin-openrouter-acp.md) | Bypass Devin's paywalled model catalog by routing LLM calls through Opencode + OpenRouter via ACP protocol — architecture, setup, and plan requirements. | {#devin} {#openrouter} {#acp} |
